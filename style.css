@@ -1,0 +1,77 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #FFFFFF;
+  color: #1B146B;
+  margin: 0;
+  padding: 0;
+  line-height: 1.8;
+}
+
+header, section, footer {
+  padding: 40px 20px;
+}
+
+header {
+  background-color: #E8A7BF;
+  color: #1B146B;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  color: #E8A7BF;
+  border-right: 6px solid #1B146B;
+  padding-right: 10px;
+}
+
+.card {
+  background-color: #F8F8F8;
+  border-right: 5px solid #E8A7BF;
+  margin: 20px 0;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+ul {
+  list-style-type: disc;
+  padding-right: 30px;
+}
+
+#what-if p {
+  background-color: #F0F0F0;
+  margin: 8px 0;
+  padding: 10px;
+  border-right: 4px solid #1B146B;
+  border-radius: 5px;
+}
+
+#safe-space textarea {
+  width: 100%;
+  height: 120px;
+  padding: 15px;
+  margin: 15px 0;
+  border: 2px solid #E8A7BF;
+  border-radius: 10px;
+  font-size: 16px;
+  resize: none;
+}
+
+#safe-space button {
+  background-color: #1B146B;
+  color: #FFFFFF;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #1B146B;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 15px;
+  font-size: 0.9em;
+}
